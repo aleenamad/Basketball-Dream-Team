@@ -10,6 +10,8 @@ How it works:
 So the User starts off with 500 points and build their team so like Lebron James will be 100 points while Chris Paul will be 50 points!
 
 ## WireFrame:
+![img](BaketballWireFrame.png)
+
 
 ## Database ERD (Entity Relationship Diagram):
 
