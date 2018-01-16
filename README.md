@@ -17,5 +17,8 @@ So the User starts off with 500 points and build their team so like Lebron James
 ![img](ERD.jpg)
 
 ## Routes:
+![img](routes.jpg)
+
+
 
 ## Trello Link:
