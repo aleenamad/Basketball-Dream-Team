@@ -14,7 +14,7 @@ So the User starts off with 500 points and build their team so like Lebron James
 
 
 ## Database ERD (Entity Relationship Diagram):
-![img](./Public/Images/ERD.jpg)
+![img](./Public/Images/newERD.jpeg)
 
 ## Routes:
 ![img](./Public/Images/routes.jpg)
