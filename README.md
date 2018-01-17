@@ -17,7 +17,7 @@ So the User starts off with 500 points and build their team so like Lebron James
 ![img](./Public/Images/newERD.jpeg)
 
 ## Routes:
-![img](./Public/Images/routes.jpg)
+![img](./Public/Images/Routes.jpg)
 
 
 

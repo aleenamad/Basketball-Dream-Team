@@ -1,0 +1,28 @@
+{
+  "name": "basketball-dream-team",
+  "version": "1.0.0",
+  "description": "Project 2",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleenamad/Basketball-Dream-Team.git"
+  },
+  "author": "Aleena Madni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleenamad/Basketball-Dream-Team/issues"
+  },
+  "homepage": "https://github.com/aleenamad/Basketball-Dream-Team#readme"
+}
