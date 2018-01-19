@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url(/Images/jc-gellidon-361849.jpg);
+
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -7,7 +7,7 @@
 }
 
 .jumbotron .container {
-  height: 500px;
+  height: 200px;
 }
 
 .form-inline {
@@ -15,9 +15,17 @@
 }
 
 .col-sm-8{
-  background-color: grey;
+  background-color: #FFF89D;
 }
 
 .col-sm-4{
-  background-color: #C2FFFF;
+  background-color: grey;
+}
+
+h1{
+  font-size: 25px;
+}
+
+.card-title{
+  font-size: 20px;
 }

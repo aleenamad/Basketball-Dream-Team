@@ -1,13 +1,13 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
-var Song = require("./teams");
-
+var Teams = require("./teams");
+var db = mongoose.createConnection('localhost', 'test');
 
 
 var playerSchema = new Schema ( {
   name: String,
   Points: Number,
-  Team: [Team.Schema]
+  Team: [Teams.Schema]
 });
 
 
