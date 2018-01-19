@@ -9,5 +9,6 @@ var teamSchema = new Schema ( {
 
 var Teams = mongoose.model('Teams', teamSchema);
 
-module.exports = Teams;
+
 module.exports.Schema = teamSchema;
+module.exports = Teams;

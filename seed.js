@@ -235,7 +235,7 @@ var playerList = [
 
 
 
-  {
+{
 
                teamName: 'Golden State Warriors',
                name: 'Draymond Green',
@@ -245,7 +245,7 @@ var playerList = [
 
 
 
-  {
+{
 
               teamName: 'Houston Rockets',
               name: 'Chris Paul',
@@ -254,28 +254,28 @@ var playerList = [
           },
 
 
-    {
+{
 
-                 teamName: 'Oklahoma City Thunder',
-                 name: 'Paul George',
-                 positionPlayed: 'Forward',
-                 value: 100
+               teamName: 'Oklahoma City Thunder',
+               name: 'Paul George',
+               positionPlayed: 'Forward',
+               value: 100
             },
 
 
 
-    {
+{
 
-                teamName: 'Boston Celtics',
-                name: 'Kyrie Irving',
-                positionPlayed: 'Guard',
-                value: 120
+               teamName: 'Boston Celtics',
+               name: 'Kyrie Irving',
+               positionPlayed: 'Guard',
+               value: 120
             },
 
 
 
 
-      {
+{
 
                    teamName: 'Boston Celtics',
                    name: 'Gordon Hayward',
@@ -285,7 +285,7 @@ var playerList = [
 
 
 
-      {
+{
 
                   teamName: 'Portland Trail Blazers',
                   name: 'Damian Lillard',
@@ -296,7 +296,7 @@ var playerList = [
 
 
 
-        {
+{
 
                      teamName: 'Cleveland Caveliers',
                      name: 'Isiah Thomas',
@@ -306,7 +306,7 @@ var playerList = [
 
 
 
-        {
+{
 
                     teamName: 'Houston Rockets',
                     name: 'Tracy McGrady',
@@ -314,11 +314,7 @@ var playerList = [
                     value: 130
                 },
 
-
-
-
-
-          {
+{
 
                        teamName: 'Washington Wizards',
                        name: 'John Wall',
@@ -326,9 +322,7 @@ var playerList = [
                        value: 100
                   },
 
-
-
-          {
+{
 
                       teamName: 'Los Angeles Clippers',
                       name: 'Blake Griffin',
