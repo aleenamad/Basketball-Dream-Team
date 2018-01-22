@@ -22,27 +22,28 @@
 
 <ul class="nav nav-pills nav-fill nav-fill">
   <li class="nav-item">
-    <a href="#" class="nav-link active">Create You're Team!</a>
+    <a href="#" class="nav-link active">Your Team!</a>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Players</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Teams</a>
+      <a class="dropdown-item" href="/hardplayerlist">Players</a>
       <br>
       <a class="dropdown-item" href="#">Position</a>
       <br>
-      <a class="dropdown-item" href="#">All-Stars</a>
-      <br>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Separated link</a> -->
+
     </div>
   </li>
   <li class="nav-item">
-    <a href="#" class="nav-link">FAQ</a>
+    <a href="/faq" class="nav-link">FAQ</a>
+  </li>
+  <li class="nav-item">
+    <a href="/players" class="nav-link">Create a Player</a>
   </li>
   <li class="nav-item">
     <a href="#" class="nav-link disabled">Trivia (Coming Soon!)</a>
   </li>
+
   <form class="form-inline" >
    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -50,17 +51,24 @@
 </ul>
 
 
+
+
+<div id='players'>
 <div class="row">
   <div class="col-sm-8">
 
     <h1>Current Team! </h1>
   </div>
+</div>
+</div>
+
+<br>
 
   <div class="col-sm-4">
-    <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card" style="position: center, text-align: center">
+  <img class="card-img-top" src="https://pm1.narvii.com/6043/7c282f53b4a55f5522da8850ca78930d516fec22_128.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Steve Nash</h5>
+    <h5 class="card-title" style="text-align: center">Steve Nash</h5>
     <p class="card-text">Number 13, 2 time MVP</p>
   </div>
   <ul class="list-group list-group-flush">
@@ -69,13 +77,13 @@
     <li class="list-group-item">Team: Phoenix Suns, Dallas Mavericks, Los Angeles Lakers</li>
   </ul>
   <div class="card-body">
-    <a href="#" class="card-link">Add Player</a>
+    <a href="/hardplayerlist" class="card-link">Add Player</a>
     <a href="#" class="card-link">Go Back</a>
   </div>
 </div>
 
   </div>
-</div>
+
 
   </body>
 </html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title></title>
+  <!-- <link rel='stylesheet' type='text/css' href='/static/css/style.css'> -->
+</head>
+<body>
+
+<h1>All Players</h1>
+
+<% hardListPlayersData.forEach(function(hardList) { %>
+  <div class='players-list'>
+    <h3 class='Name'>Name:<%= hardList.name %></h3>
+    <p class='Team-Name'>Team Name: <%= hardList.teamName %></p>
+    <p class='Position'>Position Played: <%= hardList.positionPlayed %></p>
+    <p class='Value'>Their Value: <%= hardList.value %></p>
+
+  </div>
+<%  }) %>
+
+
+</body>
+</html>

@@ -1,33 +1,21 @@
+//to add new players
+
+
+
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
-var Teams = require("./teams");
-var db = mongoose.createConnection('localhost', 'test');
 
 
-var playerSchema = new Schema ( {
+
+
+var playerSchema = new Schema ({
   name: String,
   value: Number,
-  // team: [Teams.Schema],
+  team: String,
   positionPlayed: String
 });
 
 
-
-// var players = [
-//   {
-//                 teamName: 'Phoenix Suns',
-//                 name: 'Steve Nash',
-//                 positionPlayed: 'Guard',
-//                 value: 100
-//               },
-//   {
-//                 teamName: 'San Antonio Spurs',
-//                 name: 'Kawhi Leonard',
-//                 positionPlayed: 'Forward',
-//                 value: 120
-//               },
-// ];
-
-const players = mongoose.model('Player', playerSchema);
+var players = mongoose.model('players', playerSchema);
 
 module.exports = players;

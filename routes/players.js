@@ -14,22 +14,25 @@ router.get('/', (request, response) => {
     documentTitle: 'All of the players'
   })
 })
+//
+// router.post('/', (request, response) => {
+//   let newPost = (request.body);
+//   playersData.save((err, createdPlayerObject) => {
+//     if (err) {
+//       console.log('nope aint workin');
+//       response.sendStatus(500);
+//     }
+//     response.render('index.ejs', {
+//       documentTitle: "All of the players",
+//       players: Player.findOne()
+//     })
+//   // playersData.push(newPost);
+//   // response.redirect('/players')
+// });
+// });
 
-router.post('/', (request, response) => {
-  let newPost = (request.body);
-  playersData.save((err, createdPlayerObject) => {
-    if (err) {
-      console.log('nope aint workin');
-      response.sendStatus(500);
-    }
-    response.render('index.ejs', {
-      documentTitle: "All of the players",
-      players: Player.findOne()
-    })
-  // playersData.push(newPost);
-  // response.redirect('/players')
-});
-});
+
+
 
 
 
