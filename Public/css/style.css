@@ -6,24 +6,39 @@
 
 }
 
+
+.bar {
+  background-color: white;
+  position: center;
+}
+.poem {
+  background-color:
+}
+
 .jumbotron .container {
   height: 200px;
 }
 
-.form-inline {
-  float: right;
+
+
+body{
+  background-image: url('../Images/neonbrand-308156.jpg');
+  background-position: top;
+  background-size: 1650px 1100px;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 15px;
+  color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+
 }
 
-.col-sm-8{
-  background-color: #FFF89D;
-}
+h2{
+  font-size: 15px;
+  color:white;
+  font-family: 'Roboto Condensed', sans-serif;
 
-.col-sm-4{
-  background-color: grey;
-}
-
-h1{
-  font-size: 25px;
 }
 
 .card-title{

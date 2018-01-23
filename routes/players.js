@@ -27,7 +27,7 @@ router.get('/', (request, response) => {
 //create Team
 router.get('/', basketball.create);
 
-//save plater
+//save player
 router.post('/save', basketball.save);
 
 // Get single player by id

@@ -24,7 +24,7 @@ playersController.save = function(req, res) {
   playerz.save(function(err) {
     if(err) {
       console.log(err);
-      res.render("../views/NBA/createteam");
+      res.render("../views/NBA/index");
     } else {
       console.log("Successfully created an player.");
       res.redirect("/players/show/"+playerz._id);
@@ -74,7 +74,7 @@ playersController.edit = function(req, res) {
 
 // Update an player
 playersController.update = function(req, res) {
-  Players.findByIdAndUpdate(req.params.id, { $set: { name: req.body.name, team: req.body.team, positionPlayed: req.body.positionPlayed, value: req.body.value }}, { new: true }, function (err, playerz) {
+  Players.findByIdAndUpdate(req.params.id, { $set: { name: req.body.name, team: req.body.team, position: req.body.positionPlayed, value: req.body.value }}, { new: true }, function (err, playerz) {
     if (err) {
       console.log(err);
       res.render('../views/NBA/edit', {playerz: req.body});
@@ -82,7 +82,6 @@ playersController.update = function(req, res) {
     res.redirect("../"+playerz._id);
   });
 };
-
 
 // Delete an player
 playersController.delete = function(req, res) {
