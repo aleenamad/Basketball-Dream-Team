@@ -7,10 +7,10 @@
 }
 
 
-.bar {
+/* .bar {
   background-color: inherit;
-  posi
-}
+
+} */
 
 
 .jumbotron .container {
@@ -25,6 +25,7 @@ body{
   background-size: 1750px 1200px;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 h1 {
   font-size: 15px;

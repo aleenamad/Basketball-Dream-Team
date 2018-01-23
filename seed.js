@@ -2,17 +2,7 @@
 // const playerList = require('./models/players');
 
 
-var db = require("./models");
 
-
-var playerList = []
-
-playerList.push({
-                teamName: 'San Antonio Spurs',
-                name: 'Kawhi Leonard',
-                positionPlayed: 'Forward',
-                value: 120
-              });
 playerList.push({
                 teamName: 'Orlando Magic',
                 name: 'Dwight Howard',

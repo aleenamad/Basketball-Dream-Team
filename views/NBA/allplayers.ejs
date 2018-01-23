@@ -4,45 +4,45 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title>All Players</title>
+
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-  <title>All Players</title>
-  <!-- <link rel='stylesheet' type='text/css' href='/static/css/style.css'> -->
 </head>
-<body>
 
-
-
+<body background="Images/neonbrand-308156.jpg" style="background-size: cover; background-repeat: no-repeat; ">
 
         <div class="jumbotron">
           <div class="container">
             <h1 style="color:black; font-family: 'Roboto Condensed', sans-serif; font-size: 70px; text-align: center;"> Create your own NBA Dream Team! </h1>
           </div>
-        </div>
-      <div class= "bar">
-      <ul class="nav nav-pills nav-justified">
-        <li class="nav-item">
-          <a href="/" class="nav-link active">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="/players/show" class="nav-link active">Players</a>
-        </li>
-
-        </li>
-        <li class="nav-item">
-          <a href="/players" class="nav-link">Create a Player</a>
-        </li>
-        <li class="nav-item">
-          <a href="/faq" class="nav-link">FAQ</a>
-        </li>
-
-        <li class="nav-item">
-          <a href="#" class="nav-link disabled">Trivia (Coming Soon!)</a>
-        </li>
+          <ul class="nav nav-justified">
+            <li class="nav-item">
+              <a href="/" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/players/show" class="nav-link active">Players</a>
+            </li>
 
 
-      </ul>
+            <li class="nav-item">
+              <a href="/players" class="nav-link">Create a Player</a>
+            </li>
+            <li class="nav-item">
+              <a href="/faq" class="nav-link">FAQ</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link disabled">Trivia (Coming Soon!)</a>
+            </li>
+
+
+          </ul>
+
+
       </div>
+
 
 
 
@@ -57,23 +57,23 @@
 
         <tbody>
           <tr>
-         <td>  Name </td>
-            <td>:</td>
-            <td><%= playerz[i].name %></td>
+         <td>Name:</td>
+
+            <td><%=playerz[i].name%></td>
           </tr>
           <tr>
-            <td>Team</td>
-            <td>:</td>
+            <td>Team:</td>
+
             <td><%= playerz[i].team %></td>
           </tr>
           <tr>
-            <td>Position</td>
-            <td>:</td>
-            <td><%= playerz[i].positionPlayed %></td>
+            <td>Position: </td>
+
+            <td><%=playerz[i].positionPlayed%></td>
           </tr>
           <tr>
-            <td>Value</td>
-            <td>:</td>
+            <td>Value:</td>
+
             <td><%= playerz[i].value %></td>
              <td><a href="/players/edit/<%=playerz[i]._id%>">Edit</a></td>
           </tr>
