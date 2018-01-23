@@ -4,16 +4,51 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <meta http-equiv='X-UA-Compatible' content='ie=edge' />
-  <title></title>
-  <!-- <link rel='stylesheet' type='text/css' href='/static/css/style.css'> -->
+  <title>Create A Player</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
   <script src="../../Public/js/app.js"></script>
 </head>
+
 <body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1 style="color:black; font-family: 'Roboto Condensed', sans-serif; font-size: 70px; text-align: center;"> Create your own NBA Dream Team! </h1>
+    </div>
+  </div>
 
-  <h1>Don't See Your Player? Add Him here!</h1>
-  <h2>For point value: Be Honest, Max value can be 150</h2>
+<!-- <div class= "bar"> -->
+<ul class="nav  nav-justified">
+  <li class="nav-item">
+    <a href="/" class="nav-link active">Home</a>
+  </li>
+  <li class="nav-item">
+    <a href="/players/show" class="nav-link active">Players</a>
+  </li>
+
+  </li>
+  <li class="nav-item">
+    <a href="/players" class="nav-link">Create a Player</a>
+  </li>
+  <li class="nav-item">
+    <a href="/faq" class="nav-link">FAQ</a>
+  </li>
+
+  <li class="nav-item">
+    <a href="#" class="nav-link disabled">Trivia (Coming Soon!)</a>
+  </li>
 
 
+</ul>
+<!-- </div> -->
+
+  <h1 style="text-align:center">Add Your Player Here!</h1>
+  <h2 style="text-align:center">For point value: Go to FAQ for reference sheet or add your own value (max is 150)</h2>
+
+<div class="create" style="text-align:center">
 
 <form action="/players" method="POST">
   <input type="text" placeholder="Players Name" name="name">
@@ -23,16 +58,11 @@
 
   <button type="submit">Add</button>
 </form>
-
-
-
-
-<form action="/">
-    <input type="submit" value="Go Home!">
-</form>
-
+<br>
 <form action="/players/show">
-    <input type="submit" value="Your Team!">
+  <input type="submit" value="Your Players!">
 </form>
+
+
 </body>
 </html>

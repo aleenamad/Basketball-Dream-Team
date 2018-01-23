@@ -8,24 +8,23 @@
 
 
 .bar {
-  background-color: white;
-  position: center;
-}
-.poem {
-  background-color:
+  background-color: inherit;
+  posi
 }
 
+
 .jumbotron .container {
-  height: 200px;
+  height: 100px;
 }
 
 
 
 body{
-  background-image: url('../Images/neonbrand-308156.jpg');
+  background-image: url('../Images/seth-reese-425751.jpg');
   background-position: top;
-  background-size: 1650px 1100px;
+  background-size: 1750px 1200px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
   font-size: 15px;
@@ -39,8 +38,4 @@ h2{
   color:white;
   font-family: 'Roboto Condensed', sans-serif;
 
-}
-
-.card-title{
-  font-size: 20px;
 }
