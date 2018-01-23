@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dream Team</title>
+    <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+  </head>
+  <body>
+<h1 class="round"> Dream Team </h1>
+
+
+
+<form action="/players" method="POST">
+<input type="text" placeholder="Name" name="name">
+<input type="text" placeholder="Team" name="team">
+<input type="text" placeholder="Position Played" name="positionPlayed">
+<input type="text" placeholder="Value" name="value">
+
+<button type="submit">Submit</button>
+</form>
+<form action="/">
+    <input type="submit" value="Go Home!">
+</form>
+
+<form action="/players/show">
+    <input type="submit" value="Show All available players">
+</form>
+
+  </body>
+</html>

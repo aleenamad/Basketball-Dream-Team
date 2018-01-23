@@ -6,12 +6,7 @@ var db = require("./models");
 
 
 var playerList = []
-playerList.push({
-                teamName: 'Phoenix Suns',
-                name: 'Steve Nash',
-                positionPlayed: 'Guard',
-                value: 100
-              });
+
 playerList.push({
                 teamName: 'San Antonio Spurs',
                 name: 'Kawhi Leonard',
@@ -45,27 +40,6 @@ playerList.push({
                 value: 120
               });
 
-playerList.push({
-
-                teamName: 'Chicago Bulls',
-                name: 'Michael Jordan',
-                positionPlayed: 'Guard',
-                value: 150
-              });
-
-playerList.push({
-              teamName: 'Cleveland Caveliers',
-              name: 'Lebron James',
-              positionPlayed: '',
-              value: 150
-            });
-
-playerList.push({
-              teamName: 'Los Angeles Lakers',
-              name: 'Kobe Bryant',
-              positionPlayed: 'Guard',
-              value: 150
-            });
 
 playerList.push({
               teamName: 'Los Angeles Lakers',
@@ -74,13 +48,6 @@ playerList.push({
               value: 150
             });
 
-playerList.push({
-
-              teamName: 'San Antonio Spurs',
-              name: 'Tony Parker',
-              positionPlayed: 'Guard',
-              value: 100
-            });
 
 playerList.push({
               teamName: 'San Antonio Spurs',
@@ -126,12 +93,7 @@ playerList.push({
               value: 100
         });
 
-playerList.push({
-              teamName: 'Golden State Warriors',
-              name: 'Stephen Curry',
-              positionPlayed: 'Guard',
-              value: 150
-        });
+
 
 playerList.push({
 
@@ -149,12 +111,6 @@ playerList.push({
               value: 75
         });
 
-playerList.push({
-              teamName: 'Houston Rockets',
-              name: 'James Harden',
-              positionPlayed: 'Guard',
-              value: 130
-        });
 
 playerList.push({
 

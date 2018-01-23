@@ -1,12 +1,12 @@
 var hardList = [
   {
-                  teamName: 'Phoenix Suns',
+                  team: 'Phoenix Suns',
                   name: 'Steve Nash',
                   positionPlayed: 'Guard',
                   value: 100
                 },
   {
-                  teamName: 'San Antonio Spurs',
+                  team: 'San Antonio Spurs',
                   name: 'Kawhi Leonard',
                   positionPlayed: 'Forward',
                   value: 120

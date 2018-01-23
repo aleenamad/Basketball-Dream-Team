@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Single Player</title>
+  </head>
+  <body>
+
+
+    <h1>All Players</h1>
+    <form action="/">
+        <input type="submit" value="Go Home!">
+    </form>
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Team</th>
+          <th scope="col">Position Played</th>
+          <th scope="col">Value</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><%= playerz.name %></td>
+          <td><%= playerz.team %></td>
+          <td><%= playerz.positionPlayed %></td>
+          <td><%= playerz.value %></td>
+
+        </tr>
+      </tbody>
+    </table>
+    <h3><a href="/players/edit/<%= playerz._id %> ">EDIT</a></h3>
+
+    <form action="/players/delete/<%= playerz._id%>" method="post">
+      <button type="submit">DELETE</button>
+    </form>
+  </body>
+</html>

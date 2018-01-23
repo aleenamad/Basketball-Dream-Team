@@ -4,23 +4,76 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <meta http-equiv='X-UA-Compatible' content='ie=edge' />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
   <title></title>
   <!-- <link rel='stylesheet' type='text/css' href='/static/css/style.css'> -->
 </head>
-<body>
+<form action="/">
+    <input type="submit" value="Go Home!">
+</form>
 
+<form action="/players">
+    <input type="submit" value="Create More Players!">
+</form>
 <h1>All Players</h1>
 
-<% hardListPlayersData.forEach(function(hardList) { %>
-  <div class='players-list'>
-    <h3 class='Name'>Name:<%= hardList.name %></h3>
-    <p class='Team-Name'>Team Name: <%= hardList.teamName %></p>
-    <p class='Position'>Position Played: <%= hardList.positionPlayed %></p>
-    <p class='Value'>Their Value: <%= hardList.value %></p>
 
-  </div>
-<%  }) %>
+<div class="container">
+
+      <h1>Player Detail</h1>
+      <% for (i=0; i < playerz.length; i++) { %>
+      <table>
+
+        <tbody>
+          <tr>
+         <td>  Name </td>
+            <td>:</td>
+            <td><%= playerz[i].name %></td>
+          </tr>
+          <tr>
+            <td>Team</td>
+            <td>:</td>
+            <td><%= playerz[i].team %></td>
+          </tr>
+          <tr>
+            <td>Position</td>
+            <td>:</td>
+            <td><%= playerz[i].positionPlayed %></td>
+          </tr>
+          <tr>
+            <td>Value</td>
+            <td>:</td>
+            <td><%= playerz[i].value %></td>
+             <td><a href="/players/edit/<%=playerz[i]._id%>">Edit</a></td>
+          </tr>
+        </tbody>
+        <br>
+      </table>
+
+
+  <% } %>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </body>

@@ -10,12 +10,22 @@ hardList.use(bodyParser.json());
 
 
 
-router.get('/', (request, response) => {
-  response.render('NBA/allplayers.ejs', {
-    hardListPlayersData: hardList,
-    documentTitle: 'All of the players'
-  })
-})
+// router.get('/players/show', (request, response) => {
+//   response.render('NBA/allplayers', {
+//     hardListPlayersData: hardList,
+//     documentTitle: 'All of the players'
+//   })
+// })
+//
+// router.get('/hardlist/:id', function(req, res){
+// 	console.log('getting by id')
+// 	for (let i = 0; i < hardListPlayersData.length; i++) {
+// 		if (hardListPlayersData[i].id == req.params.id) {
+// 	      res.render('NBA/allplayers', {hardList: hardListPlayersData[i]});
+// 		}
+// 	}
+// });
+
 
 
 

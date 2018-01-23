@@ -6,6 +6,7 @@
   <meta http-equiv='X-UA-Compatible' content='ie=edge' />
   <title></title>
   <!-- <link rel='stylesheet' type='text/css' href='/static/css/style.css'> -->
+  <script src="../../Public/js/app.js"></script>
 </head>
 <body>
 
@@ -16,15 +17,22 @@
 
 <form action="/players" method="POST">
   <input type="text" placeholder="Players Name" name="name">
-  <input type="text" placeholder="Team" name="name">
-  <input type="text" placeholder="Position Played" name="name">
+  <input type="text" placeholder="team" name="team">
+  <input type="text" placeholder="Position Played" name="positionPlayed">
   <input type="text" placeholder="Value" name="value">
 
   <button type="submit">Add</button>
 </form>
 
+
+
+
 <form action="/">
     <input type="submit" value="Go Home!">
+</form>
+
+<form action="/players/show">
+    <input type="submit" value="Show All available players">
 </form>
 </body>
 </html>
